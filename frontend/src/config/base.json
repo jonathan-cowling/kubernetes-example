@@ -1,0 +1,4 @@
+{
+    "STORE_URL": "http://localhost:5001",
+    "CONVERTER_URL": "http://localhost:5002"
+}
