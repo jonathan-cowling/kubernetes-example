@@ -4,4 +4,4 @@ COPY src /app
 RUN pip install -r /requirements.txt
 ENV FLASK_APP=/app/main.py
 EXPOSE 5000
-CMD python -m flask run --host=0.0.0.0 --port 5000
+CMD python -m flask run --host=192.168.1.3 --port 5000
